@@ -5,8 +5,8 @@ import { actionType } from "./Developer";
 function DeveloperForm ( { dispatch } ) {
     const [programmingLanguage, setProgrammingLanguage] = useState( "" );
     const [techUsed, setTechUsed] = useState( "" );
-    const [favFood, setFood] = useState( "" );
-    const [favDrink, setDrink] = useState( "" );
+    const [Food, setFood] = useState( "" );
+    const [Drink, setDrink] = useState( "" );
     const [name, setName] = useState( "" );
 
 
