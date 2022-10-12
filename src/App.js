@@ -1,4 +1,4 @@
-import './App.css';
+
 import { useReducer } from 'react';
 import { developerReducer } from './components/Developer.jsx';
 import DeveloperList from './components/DeveloperList.jsx';
